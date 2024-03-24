@@ -1,0 +1,137 @@
+
+.bookheader{
+    display:     none;
+    position: fixed;
+    left: 30%;
+    right: 30%;
+   padding: auto;
+   padding-top: 30px;
+   font-weight: bold;
+   margin: auto;
+   max-width: 30%;
+   /* min-height: 700px; */
+   height: 90%;
+   overflow-y: scroll;
+   border: 2px solid;
+   text-align:   center;
+   color: rgb(138, 5, 5,0.9);
+   background-image:  radial-gradient(rgba(69, 39, 138, 0.1),white,rgba(190, 168, 168, 0.2), rgba(231, 147, 147, 0.4)) ;
+   background-position: center;
+   filter: brightness(100%) contrast(100%);
+   background-blend-mode: color-burn;
+   backdrop-filter: blur(20px);
+
+   
+}
+.bookhead{
+   font-size: 2rem;
+   color: rgb(138, 5, 5);
+   border-bottom: 2px solid rgb(4, 4, 128);
+   text-transform: capitalize;
+   letter-spacing: 1px;
+   text-shadow: 0 0 3px rgba(0, 0, 0, 0.123),0 0 10px rgba(0, 0, 0, 0.149);
+}
+input{
+   border:none ;
+   border-bottom: 1px solid;
+}
+input:hover{
+   border: 1px solid blue;
+}
+.location{
+   display: inline;
+   background-image:  radial-gradient(rgba(8, 1, 24, 0.63),rgba(14, 145, 36, 0.767)) ;
+
+   color: white;
+   font-size: 1.2rem;
+   padding: 5px 20px;
+}
+.submit{
+   display: inline;
+   background: linear-gradient(60deg,blue,red);
+   color: white;
+   font-size: 1.2rem;
+   padding: 5px 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 5px 0px black, 0 0 20px 0px rgba(0, 0, 0, 0.445);
+   border: none;
+   margin-bottom: 30px;
+
+}
+.profile{
+   display: flex;
+   align-items: center;
+    justify-content:  center;
+    font-size: 1.2rem;
+    word-spacing: 10px;
+    font-weight: 500;
+    gap: 30px;
+    
+   
+}
+.profileimg{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.219), 0 0 10px 0px rgba(0, 0, 0, 0.345);
+
+}
+.profileimg:hover ,.submit:hover{
+   box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.548), 0 0 20px 0px rgba(216, 131, 131, 0.25);
+}
+.submit:hover{
+   border: 2px solid white;
+   box-shadow: 0 0 5px 1px black;
+}
+.otp{
+   height: 20px;
+   padding: auto;
+   color: white;
+   background: linear-gradient(60deg, brown,red);
+   background-repeat: no-repeat;
+}
+.location:hover{
+   box-shadow: 0 0 5px 0px rgba(243, 240, 240, 0.548), 0 0 20px 0px rgba(0, 0, 0, 0.245);
+
+}
+
+#cancelbtn{
+   position: absolute;
+   right: 0;
+   top: 0;
+   font-size: 1.3rem;
+   padding: 20px;
+   color: aliceblue;
+}
+#cancelbtn:hover{
+   text-shadow: 0 0 2px black , 0 0 10px rgba(235, 158, 158, 0.322);
+
+}
+@media only screen and (max-width: 600px){
+   .bookheader{
+      width: 95%;
+      display:      none;
+       
+       position: absolute;
+       top: 0;
+ left: 10px;
+ padding: 150px;
+     padding-top: 50px;
+     font-weight: bold;
+     margin: auto;
+      
+     /* min-height: 700px; */
+     height: 90%;
+    
+     border: 2px solid;
+     text-align:   center;
+     color: rgb(138, 5, 5,0.9);
+     background-image:  radial-gradient(rgba(69, 39, 138, 0.1),white,rgba(190, 168, 168, 0.2), rgba(231, 147, 147, 0.4)) ;
+     background-position: center;
+     filter: brightness(100%) contrast(100%);
+     background-blend-mode: color-burn;
+     backdrop-filter: blur(10px);
+  
+     
+  }
+}

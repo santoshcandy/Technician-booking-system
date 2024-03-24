@@ -1,0 +1,711 @@
+body{
+    text-transform: capitalize;
+    /* background-image: linear-gradient(80deg,white, rgba(255, 0, 0, 0.267)
+     ,white,rgba(0, 0, 0, 0.281),white,rgba(255, 255, 0, 0.404));*/
+     min-height: 800px; 
+     background-image:  radial-gradient(rgba(69, 39, 138, 0.1),white, rgba(231, 147, 147, 0.3)) ;
+transition: 3s;
+}
+
+.header{
+    position: relative;
+    max-width: 100%;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bolder;
+    padding: 30px;
+    background-color: rgb(7, 7, 7,0.5);
+     border-radius:    30px;
+    
+    text-transform: uppercase;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    text-shadow: 0 0 2px yellow, 0 0 1px black, 0 0 10px white, 0 0 40px white,  3px 4px 5px rgb(0, 0, 0,0.5) ;
+}
+.header div{
+    background-color: white;
+    font-size: 1rem;
+    display: inline;
+    border-radius: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color:black;
+    text-shadow: none;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    cursor: pointer;
+
+}
+.header p{
+    font-size: 1.5rem;
+}
+.headerimg{
+    position: absolute;
+    width: 140px;
+    height: auto;
+    left: 100px;
+    mix-blend-mode:  overlay;
+    border-radius: 30%;
+    box-shadow: 0 0 5px black,0 0 20px black;
+    /* filter: drop-shadow(10px 10px 3px black,0 0 30px  black); */
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+     
+    font-size: 1.7rem;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+     }
+     .nav div{
+        width: 400px;
+        border: 1px solid;
+        font-weight: 500;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 40px;
+        background-image: radial-gradient(whitesmoke,rgb(0, 0, 0,0.2));
+        box-shadow: 0 0 2px rgb(0, 0, 0,0.2),0 0 10px rgb(0, 0, 10,0.4),0 0 20px whitesmoke;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+        cursor: pointer;
+     }
+
+ .main{
+        display: flex;
+        max-width: 70%;
+         
+        
+        padding: auto ;
+        margin: auto;
+
+         margin-top: 100px;
+        flex-wrap: wrap;
+         gap: 4rem;
+         justify-content: center;
+         text-align: center;
+        }
+.main div{
+    overflow: hidden;
+}
+ .main div div{
+            justify-content: center;
+           
+            width:  150px;
+            height:  150px;
+             /* background-image:  radial-gradient(rgb(250, 250, 8,0.3), rgb(255, 0, 0,0.3)) ; */
+        }
+.mainimgs{
+    transition:  0.1s;
+mix-blend-mode:  multiply;
+    width: 150px;
+    height: auto;
+}
+.mainimgs:hover{
+    height: auto;
+    width: 180px;
+}
+.mainimgs:active{
+    background-color: black;
+}
+
+ .main div p{
+            margin: 0;
+            padding: 0;
+            font-size: 1.1rem;
+            font-weight: bold;
+            font-stretch: ultra-expanded;
+            letter-spacing: 1px;
+            font-style: oblique;
+        }
+   
+.plumber_container{
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+     justify-content:  space-evenly;
+    position: absolute;
+    top:  2rem;
+    left: 3.5%;
+    border: 2.5px solid;
+    width: 62%;
+    min-height: 700PX; 
+    background-color:  white;
+    row-gap: 30px;
+    
+     }
+img{
+    width: 100px;
+    height: 100px;
+    }
+ .recomended{
+        flex-basis: 100%;
+       font-size: 3.5rem;
+   
+         
+       background-image: radial-gradient(  rgb(250, 250, 8,0.8), rgb(255, 0, 0,0.9)) ;
+       background-size: cover;
+       background-position: center;
+       color: transparent;
+       background-clip: text;
+       -webkit-background-clip: text;
+        letter-spacing: 1px;
+        border: 4px solid;
+        padding-top: 1rem;
+        margin: 0;
+       
+   }
+ .recomended p{
+       
+       background-image:  linear-gradient(rgb(250, 250, 8,0.8), rgb(255, 0, 0,0.9));
+       background-size: cover;
+       background-position: center;
+       color: transparent;
+       background-clip: text;
+       -webkit-background-clip: text;
+       font-size: 3rem;
+   
+   }
+   .recomended .recomended2{
+    
+    font-size: 1.3rem;
+   }
+
+ .add_items{
+    display: block;
+    gap: 7px;
+    flex-basis: 100%;
+    /* 
+    position: absolute;
+    top: 170px;
+    left: 0;
+     width: fit-content; */
+     overflow: hidden;
+    background-color:rgb(0, 0, 0,0.4);
+    padding:  2px 6px;
+    margin-top: 10px;
+     transition: 3s;
+     
+     }
+     
+.add_items:hover {
+        background-color: rgb(255, 255, 255,0.6);
+        
+     }     
+ .add_items span{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+}
+.add_items .increase_btn{
+    font-size: 1rem;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.add_items .increase_btn:active{
+    background-color: rgba(0, 128, 0, 0.534);
+}
+.select {
+    padding: 0 20px ;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    /* box-shadow: 0 0 3px rgb(14, 13, 13,0.2); */
+ }
+
+.select:active {
+background-color: rgb(14, 13, 13,0.5);
+     }
+
+     .plumber_container {
+        justify-content: space-evenly;
+        gap: 30px;
+        /* background-image:  radial-gradient(rgba(190, 167, 243, 0.2),white, rgba(255, 92, 92, 0.1),rgba(148, 148, 233, 0.1)) ; */
+        background-image:  radial-gradient(rgba(167, 243, 173, 0.2),white, rgba(239, 255, 92, 0.1),rgba(148, 213, 233, 0.1)) ;
+
+        
+       /* border: 3px solid gray; */
+       font-size: 1.5rem;
+       /* color: whitesmoke; */
+       text-align: center;
+       padding: 20px;
+        /* width: 150px; */
+
+   }
+   .rateof {
+     
+       font-size: 1.2rem;
+       margin: 0;
+       padding: 0;
+   }
+
+.fittngs{
+    padding: 20px 10px;
+}
+
+.fittngs:hover{
+    border: 0.1px solid  rgba(206, 113, 113, 0.444);
+    background-color: white;
+    box-shadow: 0 0 4px rgba(206, 153, 153, 0.744), 0 0 20px rgba(182, 168, 168, 0.744);
+    
+}
+ 
+#proseed_container{
+    background-image:  radial-gradient( rgba(190, 167, 243, 0.3),white,rgba(182, 172, 172, 0.219), rgba(92, 130, 255, 0.2)) ;
+display: block;
+    position: fixed;
+    top: 2rem;
+     right: 100%;
+    width: 28%;
+    /* min-height: 600px; */
+    height: 99%;
+    border: 2px solid;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+ }
+
+ #proseed_container #prosscced{
+    display: block;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: rgb(8, 8, 95);
+    border: 2px solid rgb(8, 8, 95) ;
+    background-color:rgb(8, 8, 95,0.1) ;
+    position: absolute;
+    bottom: 60px;
+    width: 90%;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    text-align: center;
+     margin: 0 15px;
+     border-radius: 30px;
+     font-weight: 700;
+     box-shadow: 0 0 2px rgb(8, 8, 95,0.6),0 0 20px rgb(8, 8, 95,0.4);
+     
+     }
+     #proseed_container #prosscced:hover{
+        box-shadow: 0 0 4px rgb(8, 8, 95,0.6),0 0 30px rgb(8, 8, 95,0.4);
+        background-color: whitesmoke;
+     }  
+ #proseed_container h1{
+    padding-top: 40px;
+    color:  rgb(8, 8, 95) ;
+    text-shadow:  0 0 20px rgb(8, 8, 95,0.3);
+    border-bottom: 1px solid rgb(8, 8, 95);
+ }
+ #proseed_container p{
+    padding-left: 30px;
+    font-size: 1.3rem;
+    text-align: left;
+    justify-content: space-evenly;
+ }
+ .added_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    color:  rgb(9, 9, 66) ;
+    
+    text-shadow:  0 0 20px rgba(192, 175, 24, 0.479);
+     padding-top: 0;
+     background-color: rgba(185, 180, 255, 0.37);
+ }
+ .added_items h4{
+    color: black;
+ }
+ #none{
+    color: red;
+    
+}
+#none:hover{
+    box-shadow: 3px 3px 3px 1px rgb(255, 0, 0,0.4);
+}
+.total{
+    position: absolute;
+    bottom: 120px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(3, 3, 134);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    overflow: hidden;
+}
+
+ 
+ 
+/* side design*/
+.leftdesign{
+    position: absolute;
+     
+    left: 1%;
+    
+    width: 100px;
+    min-height: 1000px;
+}
+.leftdesign div{
+     margin-bottom: 30px;
+     border-radius: 200px;
+    width: 30px;
+    height: 170px;
+    align-items: center;
+    background-color: rgb(7, 7, 7,0.5);
+}
+
+.rigthdesign{
+    position: absolute;
+     left: 96%;
+    width: 100px;
+    min-height: 1000px;
+    transition: 3s;
+}
+.rigthdesign div{
+    margin-bottom: 30px;
+     border-radius: 200px;
+    width: 30px;
+    height: 170px;
+    align-items: center;
+    background-color: rgb(7, 7, 7,0.5);
+}
+.selectedelemenet{
+    position: absolute;
+    top: 16%;
+    bottom: 28%;
+    
+    min-height: 300px;
+    width: 100%;
+     overflow-y: auto;
+    
+}
+ 
+ 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(235, 197, 197);
+    }
+    .header{
+        font-size: 2rem;
+        }
+    .header div{
+        font-size: 0.8rem;
+    }
+    .header p{
+        font-size: 1rem;
+    }
+    .headerimg{
+   display: none;
+    }
+    .main{
+       
+        max-width: 90%;
+         height: 100%;
+        
+        padding: auto ;
+        margin: auto;
+
+         margin-top: 100px;
+        flex-wrap: wrap;
+         gap: 3rem;
+         justify-content: center;
+         text-align: center;
+        }
+ 
+ .main div div{
+              width:  80px;
+            height:  80px;
+             
+        }
+.mainimgs{
+    transition:  0.1s;
+mix-blend-mode:  multiply;
+    width: 80px;
+    height: auto;
+}
+.mainimgs:hover{
+    height: auto;
+    width: 100px;
+}
+.mainimgs:active{
+    background-color: black;
+}
+
+ .main div p{
+            margin: 0;
+            padding: 0;
+            font-size: 0.7rem;
+            font-weight: bold;
+            font-stretch: ultra-expanded;
+            letter-spacing: 1px;
+            font-style: oblique;
+        }
+        .leftdesign{
+            position: absolute;
+            left: 1%;
+            width: 100px;
+            min-height: 1000px;
+            top: 20%;
+            transition: 3s;
+        }
+        .leftdesign div{
+             margin-bottom: 30px;
+             border-radius: 200px;
+            width: 15px;
+            height: 100px;
+            align-items: center;
+            background-color: rgb(7, 7, 7,0.5);
+        }
+        
+        .rigthdesign{
+            position: absolute;
+             left: 96%;
+            width: 100px;
+            min-height: 1000px;
+            top: 20%;
+            transition: 3s;
+        }
+        .rigthdesign div{
+            margin-bottom: 30px;
+             border-radius: 200px;
+            width: 15px;
+            height: 100px;
+            align-items: center;
+            background-color: rgb(7, 7, 7,0.5);
+        }
+
+        #container{
+            width: 90%;
+            height: 650px;
+            overflow: auto;
+            display: block;
+            border: 3px solid;
+            background-color: black;
+        }
+        .plumber_container{
+            display: flex;
+           flex-wrap: wrap;
+           flex-direction: row;
+             
+           position: absolute;
+           top:  1rem;
+           margin: auto;
+         
+           border: 2.5px solid;
+           width: 90%;
+           height: 500px;
+           background-color:  white;
+           row-gap: 20px;
+           overflow-y: scroll;
+           justify-content: space-evenly;
+           gap: 20px;
+            
+           background-image:  radial-gradient(rgba(167, 243, 173, 0.2),white, rgba(239, 255, 92, 0.1),rgba(148, 213, 233, 0.1)) ;
+   
+           
+           /* font-size: 1.5rem; */
+           text-align: center;
+          padding: 10px;
+          
+            
+           
+            }
+
+       img{
+           width: 50px;
+           height: 50px;
+           }
+.itemname{
+    font-size: 1.1rem;
+}
+           .add_items{
+            display: block;
+            gap: 2px;
+            flex-basis: 100%;
+            /* 
+            position: absolute;
+            top: 170px;
+            left: 0;
+             width: fit-content; */
+             overflow: hidden;
+            background-color:rgb(0, 0, 0,0.4);
+            padding:  1px 3px;
+            margin-top: 5px;
+             transition: 3s;
+             
+             }
+             
+        .add_items:hover {
+                background-color: rgb(255, 255, 255,0.6);
+                
+             }     
+         .add_items span{
+            margin: 0;
+            padding: 0;
+            font-size: 1rem;
+        }
+        .add_items .increase_btn{
+            font-size: 0.7rem;
+            background-color: aliceblue;
+            color: black;
+            font-weight: bold;
+            border: 1px solid;
+            border-radius: 50%;
+        }
+        .add_items .increase_btn:active{
+            background-color: rgba(0, 128, 0, 0.534);
+        }
+        .select {
+            padding: 0 3px ;
+            background-color: whitesmoke;
+            font-size: 0.8rem;
+            /* box-shadow: 0 0 3px rgb(14, 13, 13,0.2); */
+         }
+        
+        .select:active {
+        background-color: rgb(14, 13, 13,0.5);
+             }
+        
+             
+           .rateof {
+             
+               font-size: 1rem;
+               margin: 0;
+               padding: 0;
+           }
+        
+        .fittngs{
+            padding: 10px 5px;
+        }
+        
+        .fittngs:hover{
+            border: 0.1px solid  rgba(206, 113, 113, 0.444);
+            background-color: white;
+            box-shadow: 0 0 4px rgba(206, 153, 153, 0.744), 0 0 20px rgba(182, 168, 168, 0.744);
+            
+        }
+         
+        #proseed_container{
+            display: block;
+            background-image:  radial-gradient( rgba(190, 167, 243, 0.3),white,rgba(182, 172, 172, 0.219), rgba(92, 130, 255, 0.2)) ;
+        
+            position: fixed;
+             top: 70%;
+            width: 100%;
+            
+            height: 30%;
+            border: 2px solid;
+            background-color: white;
+            text-align: center;
+            overflow: hidden;
+            transition: 0.5s;
+            margin: 0 0px;
+         }
+        
+         #proseed_container #prosscced{
+            display: block;
+            overflow: hidden;
+            font-size: 1.4rem;
+            color: rgb(8, 8, 95);
+            border: 2px solid rgb(8, 8, 95) ;
+            background-color:rgb(8, 8, 95,0.1) ;
+            position: absolute;
+            bottom: 8px;
+            width: 50%;
+            margin: 0px 30%;
+            padding: 0px 0;
+            letter-spacing: 0.5px;
+            text-align: center;
+              
+             border-radius: 30px;
+             font-weight: 700;
+             box-shadow: 0 0 2px rgb(8, 8, 95,0.6),0 0 20px rgb(8, 8, 95,0.4);
+             
+             }
+             #proseed_container #prosscced:hover{
+                box-shadow: 0 0 4px rgb(8, 8, 95,0.6),0 0 30px rgb(8, 8, 95,0.4);
+                background-color: whitesmoke;
+             }  
+         #proseed_container h1{
+            padding-top: 5px;
+            color:  rgb(8, 8, 95) ;
+            text-shadow:  0 0 20px rgb(8, 8, 95,0.3);
+            border-bottom: 1px solid rgb(8, 8, 95);
+         }
+         #proseed_container p{
+            padding-left: 0px;
+            font-size: 1rem;
+            text-align: left;
+            justify-content: space-evenly;
+         }
+         .added_items{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            letter-spacing: 1px;
+            color:  rgb(9, 9, 66) ;
+            
+            text-shadow:  0 0 20px rgba(192, 175, 24, 0.479);
+             padding-top: 0;
+             background-color: rgba(185, 180, 255, 0.37);
+             width: 100%;
+             min-height: 20px;
+         }
+         .added_items h4{
+            color: black;
+         }
+         .added_items h3{
+            font-size: 1rem;
+         }
+         #none{
+            color: red;
+            
+        }
+        #none:hover{
+            box-shadow: 3px 3px 3px 1px rgb(255, 0, 0,0.4);
+        }
+            
+        #plumber_list{
+            width: 100%;
+            height: 50%;
+            
+        }   
+
+        .total{
+            position: absolute;
+            bottom: 40px;
+            width: 100%;
+            height: 20px;
+            background-color: rgb(3, 3, 134);
+            color: whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            overflow: hidden;
+        }
+        .selectedelemenet{
+            position: absolute;
+            top: 25%;
+            bottom: 30%;
+            
+            min-height: 170px;
+            width: 100%;
+             overflow-y: auto;
+            
+        }
+
+  }
+
+
+
+
+
+
+
+
